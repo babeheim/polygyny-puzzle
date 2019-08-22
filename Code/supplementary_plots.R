@@ -1,4 +1,3 @@
-library(ineq)
 
 P <- function(s,t,m,u,c){
        X <- s*t*m*(d-u)*(1/(d*c))
