@@ -25,7 +25,7 @@ The analysis itself is relatively straightforward, and can be re-run by typing:
   source('./run_all.R')
 ```
 
-with the project folder as the working directory. If all goes well, the project analysis will execute step-by-step and all results written into the folder.
+with the project folder as the working directory. If all goes well, the project analysis will execute step-by-step and all results written into the folder (taking about 4 hours to complete on a relatively modern desktop computer).
 
 The project is maintained by Bret Beheim (beheim@gmail.com) and Cody Ross (cody_ross@eva.mpg.de) and is hosted at https://github.com/babeheim and https://github.com/ctross/Publications/tree/master/polygynypuzzle.
 
