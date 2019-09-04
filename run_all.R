@@ -2,6 +2,8 @@
 # Be sure to run each line in order
 rm(list=ls())
 
+source("./Code/project_support.R")
+
 tic.clearlog()
 
 tic("run all steps from start to finish")
