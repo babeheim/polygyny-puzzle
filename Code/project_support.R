@@ -1,13 +1,14 @@
 
 library(tictoc)
-library(rgdal)
 library(classInt)
 library(RColorBrewer)
 library(rethinking) # dont put rethinking after maps, ggplot2 tries to call maps::map
+# Additional package dependencies not discoverable from package metadata.
+# rethinking::ulam() uses digest internally but rethinking does not
+# currently declare digest in DESCRIPTION.
+requireNamespace("digest")
 library(maps)
-library(maptools)
 library(scales)
-library(sp)
 library(plotrix)
 library(ggmap)
 library(ggrepel)
@@ -15,7 +16,6 @@ library(ggplot2)
 library(reshape2)
 library(ineq)
 library(directlabels)
-library(scales)
 library(MASS)
 library(xtable)
 
